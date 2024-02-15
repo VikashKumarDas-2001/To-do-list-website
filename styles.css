@@ -1,0 +1,158 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Make sure body takes at least the full height of the viewport */
+    background-image: url('Images/w.webp');
+    background-size: cover;
+    background-position: center;
+
+}header.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b815fd;
+    color: #fff;
+    padding: 2px;
+  }
+  .logo {
+    max-height: 80px;
+  }
+  nav ul.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul.nav-list li {
+    margin-right: 50px;
+  }
+  
+  nav ul.nav-list li a {
+    text-decoration: none;
+    color: #dd0c0c;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul.nav-list li a:hover {
+    color: #ffd700;
+  }
+  h1, h2 {
+    text-align: center;
+  }
+  .u{
+    text-align: left;
+  }
+  
+
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px 0 0 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #b815fd;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: skyblue;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+
+.fas:hover {
+    background: none!important;
+    color: purple;
+  }
+  
+  
+  .nav-item {
+    flex-wrap: wrap;
+  }
+  
+  .menu li a:hover {
+    color: rgb(186, 10, 171) !important;
+    opacity: 1.5;  
+  }
+
+  footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    text-align: right;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    display: block;
+}
+  
+  footer a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    
+  }
+  .task-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.edit-button,
+.delete-button {
+    margin-left: auto;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007bff; /* Set the color to blue */
+}
+
+.edit-button:hover,
+.delete-button:hover {
+    color: #ff0000;
+}
